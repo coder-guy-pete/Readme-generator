@@ -17,7 +17,9 @@
   * [Questions](#questions)
 
   ## Installation
-  This application utilizes Inquirer and fs. Instructions on how to add these packages are below:
+  This application utilizes Inquirer and Node.JS:
+  * To install Node.JS follow the instructions outlined [here](https://nodejs.org/en/download/package-manager)
+  * To install Inquirer run ```npm install inquirer``` in the folder of the cloned repository
 
   ## Usage
   A walkthrough video on how to utilize this application is available [here](https://drive.google.com/file/d/1dceDv2m4PQWx428wzxH-kpQDDEU895vC/view?usp=drive_link).
