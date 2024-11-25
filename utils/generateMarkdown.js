@@ -74,9 +74,9 @@ function generateMarkdown(answers) {
   ${tests}
 
   ## Questions
-  * **GitHub**: [${githubUsername}](https://github.com/${githubUsername})
-  For any questions, please contact me at:
-  * **Email**: ${email}`;
+  **GitHub**: [${githubUsername}](https://github.com/${githubUsername})
+  
+  For any questions, please contact me at: ${email}`;
 }
 
 export default generateMarkdown;
