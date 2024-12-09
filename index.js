@@ -5,9 +5,10 @@ import generateMarkdown from './utils/generateMarkdown.js';
 const questions = [
     {message: 'What is the title of your project?', type: 'input', name: 'title'},
     {message: 'Please provide a description of your project.', type: 'input', name: 'description'},
+    {message: 'Are there any dependencies that need to be installed for your project?', type: 'input', name: 'dependencies'},
     {message: 'What are the installation instructions for your project?', type: 'input', name: 'installation'},
     {message: 'What is the usage information for your project?', type: 'input', name: 'usage'},
-    {message: 'What are the contribution guidelines for your project?', type: 'input', name: 'contribution'},
+    {message: 'What are the contribution guidelines for your project?', type: 'input', name: 'contributing'},
     {message: 'What are the test instructions for your project?', type: 'input', name: 'tests'},
     {message: 'What license would you like to use for your project?', type: 'list', name: 'license', choices: ['MIT', 'GNU', 'Apache', 'ISC', 'None']},
     {message: 'What is your GitHub username?', type: 'input', name: 'githubUsername'},

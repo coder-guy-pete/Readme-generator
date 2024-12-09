@@ -42,9 +42,10 @@ function generateMarkdown(answers) {
   const tableOfContents = `
   ## Table of Contents
   * [Description](#description)
+  * [Dependencies](#dependencies)
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Contributing](#constribution)
+  * [Contributing](#contributing)
   * [Tests](#tests)
   * [License](#license)
   * [Questions](#questions)`;
@@ -57,7 +58,11 @@ function generateMarkdown(answers) {
   ## Description
   ${description}
 
+  ## Table of Contents
   ${tableOfContents}
+
+  ## Dependencies
+  ${dependencies}
 
   ## Installation
   ${installation}
@@ -65,13 +70,13 @@ function generateMarkdown(answers) {
   ## Usage
   ${usage}
 
-  ${renderLicenseSection(license)}
-  
   ## Contributing
-  ${contribution}
-
+  ${contributing}
+  
   ## Tests
   ${tests}
+  
+  ${renderLicenseSection(license)}
 
   ## Questions
   **GitHub**: [${githubUsername}](https://github.com/${githubUsername})
