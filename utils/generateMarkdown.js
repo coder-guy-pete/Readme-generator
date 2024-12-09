@@ -37,7 +37,7 @@ function renderLicenseSection(license) {
 }
 
 function generateMarkdown(answers) {
-  const { title, description, installation, usage, contribution, tests, license, githubUsername, email } = answers;
+  const { title, description, dependencies, installation, usage, contributing, tests, license, githubUsername, email } = answers;
 
   const tableOfContents = `
   ## Table of Contents

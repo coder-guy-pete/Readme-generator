@@ -29,7 +29,7 @@ function init() {
     inquirer.prompt(questions)
         .then(answers => {
             const markdownContent = generateMarkdown(answers);
-            writeToFile('README.md', markdownContent);   
+            writeToFile('Generated_README.md', markdownContent);   
         })
     .catch(err => {
         console.error('Error:', err);
